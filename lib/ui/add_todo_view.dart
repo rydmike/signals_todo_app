@@ -34,6 +34,7 @@ class _AddTodoViewState extends State<AddTodoView> {
                 labelText: 'Description',
               ),
             ),
+            const SizedBox(height: 8),
             ElevatedButton(
               onPressed: () {
                 todoStore.add(
