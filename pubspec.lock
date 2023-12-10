@@ -119,10 +119,10 @@ packages:
     dependency: "direct main"
     description:
       name: signals
-      sha256: "26a59b80938964c585e1f0d956f55fdf6592ae6598910230e7cafc1b55cb6f11"
+      sha256: ebf7d09c4a2108f49260caec9192c0a5f7cec9b6f410ccf6b827b34814d9b973
       url: "https://pub.dev"
     source: hosted
-    version: "1.5.2"
+    version: "1.5.10"
   sky_engine:
     dependency: transitive
     description: flutter

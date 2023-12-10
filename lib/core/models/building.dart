@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:signals/signals_flutter.dart';
 
-final Signal<Building> building = signal(
+final building = signal(
   const Building(name: 'MyHome', description: 'Private house', area: 240),
 );
 

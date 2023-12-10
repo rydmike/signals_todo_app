@@ -13,7 +13,7 @@ class TodoView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Watch((context) {
+        title: Watch((BuildContext context) {
           debugPrint('Building AppBar title');
           return Text(AppInfo.name.value);
         }),
@@ -67,7 +67,7 @@ class TodoView extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextField(
-              onChanged: (value) => AppInfo.name.value = value,
+              onChanged: (String value) => AppInfo.name.value = value,
               decoration: const InputDecoration(
                 labelText: 'Name',
               ),

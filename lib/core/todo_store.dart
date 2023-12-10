@@ -8,7 +8,7 @@ final TodoStore todoStore = TodoStore();
 class TodoStore {
   final ListSignal<Todo> todos = <Todo>[].toSignal();
 
-  final header = computed(
+  final Computed<String> header = computed(
       () => '${AppInfo.name.value} has ${todoStore.todos.value.length} todos');
 
   void add(Todo todo) {
